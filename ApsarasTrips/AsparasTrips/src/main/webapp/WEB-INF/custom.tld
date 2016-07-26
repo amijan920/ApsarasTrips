@@ -1,0 +1,10 @@
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>Example TLD</short-name>
+  <tag>
+    <name>Sample</name>
+    <tag-class>com.apsaras.tags.SampleTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+</taglib>
