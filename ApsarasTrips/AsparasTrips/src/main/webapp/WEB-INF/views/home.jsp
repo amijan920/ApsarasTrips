@@ -9,13 +9,17 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Apsaras Trips</title>
+    
     <link href="<spring:url value='/resources/css/bootstrap.min.css'/>" rel="stylesheet" />
     <link href="<spring:url value='/resources/css/bootstrap-theme.min.css'/>" rel="stylesheet" />
 
     <link href="<spring:url value='/resources/css/common.css'/>" rel="stylesheet" />
     <link href="<spring:url value='/resources/css/home.css'/>" rel="stylesheet" />
+    <link href="<spring:url value='/resources/css/carousel.css'/>" rel="stylesheet" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<spring:url value='/resources/js/bootstrap.min.js'/>"></script>
+    
   </head>
   <body>
     <!-- TODO: move header to separate file -->
@@ -305,8 +309,60 @@
         </div>   
       </div>
   
-      <div class="page-divider">
-        <span>Promos</span>
+      <div id="promos-section" class="page-section">
+        <div class="page-divider">
+          <span>Promos</span>
+        </div>
+        <div id="promo-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#promo-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#promo-carousel" data-slide-to="1"></li>
+            <li data-target="#promo-carousel" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="promo">
+                <span class=promo-title>Promo 1</span>
+                <img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="...">
+              </div>              
+              <div class="carousel-caption">
+                
+              </div>
+            </div>
+            <div class="item">
+              <div class="promo">
+                <span class=promo-title>Promo 2</span>
+                <img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="...">
+              </div>
+              <div class="carousel-caption">
+                
+              </div>
+            </div>
+            <div class="item">
+              <div class="promo">
+                <span class=promo-title>Promo 3</span>
+                <img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="...">
+              </div>
+              <div class="carousel-caption">
+                
+              </div>
+            </div>
+            
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#promo-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#promo-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
   
     </div>

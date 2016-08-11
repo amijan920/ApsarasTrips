@@ -75,3 +75,14 @@
 	padding-left:7px;
   	padding-right:7px;
 }
+
+#promos-section .promo {
+   width:60%;
+   margin: auto;
+}
+
+#promos-section .promo > .promo-title {
+  font-size:12.5pt;
+}
+
+
