@@ -1,0 +1,38 @@
+#header-image {
+	width:100%;
+}
+
+#our-members-section {
+	background-image: url('../images/hy_bg.png');
+}
+
+#category-grid .category > .category-portrait {
+	margin-bottom:15px;
+}
+
+#category-grid .category > .category-portrait > .category-label {
+	background-color: #004ea1;
+	color:#ffffff;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding:10px;
+	text-align: center;
+}
+
+#category-grid .category > .category-portrait > .category-label > .secondary-label {
+	font-weight: 700;
+}
+
+#category-grid .category > .category-portrait > .category-img {
+	background-color: #408ee1;
+	height:160px;
+}
+
+#category-grid .category > .category-footer {
+	text-align: center;
+}
+
+#category-grid .category > .category-footer > .btn {
+	background-color: #a9907c;
+	color: #ffffff;
+}
