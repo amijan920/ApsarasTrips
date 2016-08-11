@@ -44,7 +44,7 @@
 	text-align: center;
 }
 
-#category-grid .category > .category-footer > .btn {
+#category-grid .category > .category-footer > .btn, #promos-section .btn {
 	background-color: #a9907c;
 	color: #ffffff;
 }
@@ -85,4 +85,52 @@
   font-size:12.5pt;
 }
 
+#promos-section .promo-footer {
+	margin:auto;
+  text-align:center;
+}
 
+#promos-section > .promo-footer > .promo-message {
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+#promos-section .promo-message span {
+	font-size: 13pt;
+}
+
+#footer {
+	position:absolute;
+  background-color: #004ea1;
+  width:100%;
+  padding-top:35px;
+  padding-bottom:20px;
+  min-height:200px;
+}
+
+#footer img {
+  width: 100%;
+  text-align:center;
+}
+
+#footer .payment-methods {
+	margin-right: -20px;
+}
+
+#footer .payment-methods img {
+	width: 50% !important  ;
+}
+
+#footer > .clearfix {
+	margin: auto;
+	width: 95%;
+}
+
+#footer .rating {
+	margin-top: 35px;
+	margin-left: 80px;
+}
+
+#footer > .col-md-3 {
+	padding-left:10px  
+}

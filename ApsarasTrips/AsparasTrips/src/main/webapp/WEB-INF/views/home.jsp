@@ -82,7 +82,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -99,7 +99,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -146,7 +146,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -163,7 +163,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -243,7 +243,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More...</button>
+                      <button class="btn" >See More</button>
                     </div>
                   </div>
                 </div>
@@ -363,10 +363,35 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+        
+        <div class="promo-footer">
+	        <div class="promo-message">
+	          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu velit, elementum quis.</span>
+	        </div>
+	        <div class="promo-btn">
+	          <button class="btn" >See More</button>
+	        </div>        
+        </div>
+                
       </div>
-  
     </div>
-
+  
+    <!-- Body End -->
+    
+    <div id="footer">
+      <div class="clearfix">
+        <div class="col-md-offset-1 col-md-3 payment-methods">  
+          <img src="<spring:url value='/resources/images/bottom_L.png'/>">  
+        </div>
+        <div class="col-md-3 options">  
+          <img src="<spring:url value='/resources/images/bottom_M.png'/>">  
+        </div>
+        <div class="col-md-3 rating">  
+          <img src="<spring:url value='/resources/images/bottom_R.png'/>">  
+        </div>
+      </div>
+      
+    </div>    
   <!-- 
   	
     <h1>Apsaras</h1>
@@ -375,4 +400,19 @@
      -->
 
 </body>
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+	  setFooterTop();	  
+	  window.onresize = setFooterTop; 
+	});
+  
+  function setFooterTop() {
+    var footerTop = $("#header-image")[0].scrollHeight
+            + $("#navigation")[0].scrollHeight
+            + $(".page-body")[0].scrollHeight + "px";
+    $("#footer").css("top", footerTop);  
+  }
+</script>
 </html>
