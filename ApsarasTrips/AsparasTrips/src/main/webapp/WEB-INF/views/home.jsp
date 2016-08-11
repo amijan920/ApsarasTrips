@@ -1,17 +1,274 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    
+  pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="ex" uri="/WEB-INF/custom.tld"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Apsaras Trips</title>
-    <link href="<spring:url value='/resources/css/common.css'/>" rel="stylesheet"/>
+    <link href="<spring:url value='/resources/css/bootstrap.min.css'/>" rel="stylesheet" />
+    <link href="<spring:url value='/resources/css/bootstrap-theme.min.css'/>" rel="stylesheet" />
+
+    <link href="<spring:url value='/resources/css/common.css'/>" rel="stylesheet" />
+    <link href="<spring:url value='/resources/css/home.css'/>" rel="stylesheet" />
+
+    <script src="<spring:url value='/resources/js/bootstrap.min.js'/>"></script>
   </head>
   <body>
+    <!-- TODO: move header to separate file -->
+    <!-- Header start -->
+    <div id="header-image">
+      <img src="<spring:url value='/resources/images/banner.png'/>" />
+    </div>
+
+    <nav id="navigation" class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="no-right-padding">Login</a></li>
+            <li><a href="#" class="no-left-padding">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header end -->
+
+    <div class="page-body container">
+      <div class="page-section">
+        <div class="page-divider">
+          <span>Apsaras 9 Products Category</span>
+        </div>
+        
+        <!-- TODO create template and automate -->
+        
+        <div id="category-grid">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+              <div class="row">
+          
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Sailing yacht holidays</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p1_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Diving Series</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p2_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Sailing, diving training Series</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p3_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="space-divider">
+          
+          </div>
+          
+          <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+              <div class="row">
+          
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Global Yacht Club membership benefits</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p4_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Island Travel Line</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p5_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">HTRIP base line (Philippines, Greece)</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p6_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          
+          <div class="space-divider">
+          
+          </div>
+          
+          <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+              <div class="row">
+          
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Global Yacht Club membership benefits</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Royal Caribbean cruise agent</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="category">
+                    <div class="category-portrait">
+                      <div class="category-label">
+                        <div class="primary-label"></div>
+                        <div class="secondary-label">Apsaras Living Museum</div>
+                      </div>
+                      <div class="category-img">
+                        <img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" />
+                      </div>
+                    </div>
+                    <div class="category-footer">
+                      <button class="btn" >See More...</button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div id="our-members-section" class="page-section">
+        <div class="page-divider">
+          <span>Our Members</span>
+        </div>
+      </div>
+  
+      <div class="page-divider">
+        <span>Promos</span>
+      </div>
+  
+    </div>
+
+  <!-- 
+  	
     <h1>Apsaras</h1>
     <p>Click <a href="<spring:url value='/hello'/>">here</a> to see a greeting.</p>
-  </body>
+    
+     -->
+
+</body>
 </html>

@@ -15,17 +15,23 @@
 	color:#ffffff;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	padding:10px;
+	padding:15px 10px 10px 10px;
 	text-align: center;
 }
 
 #category-grid .category > .category-portrait > .category-label > .secondary-label {
 	font-weight: 700;
+	font-size: .8em;
 }
 
 #category-grid .category > .category-portrait > .category-img {
 	background-color: #408ee1;
 	height:160px;
+	overflow: hidden;
+}
+
+#category-grid .category > .category-portrait > .category-img >img{
+	width:100%;
 }
 
 #category-grid .category > .category-footer {
