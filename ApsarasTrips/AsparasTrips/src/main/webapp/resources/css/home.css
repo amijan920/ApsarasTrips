@@ -2,8 +2,14 @@
 	width:100%;
 }
 
+#header-image > img {
+	width: 100%;
+}
+
 #our-members-section {
 	background-image: url('../images/hy_bg.png');
+	margin-left: -104.5px;
+    margin-right: -104.5px;	
 }
 
 #category-grid .category > .category-portrait {
@@ -41,4 +47,31 @@
 #category-grid .category > .category-footer > .btn {
 	background-color: #a9907c;
 	color: #ffffff;
+}
+
+#member-grid {
+	width: 100%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#member-grid .member >.member-portrait > .member-img > img{
+	width: 100%;
+	cursor:pointer;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#our-members-section > .member-section-divider {
+    width: 84.5%;
+    margin: auto;
+}
+
+.col-md-4 {
+	padding-left:4px;
+	padding-right:4px;
+} 
+
+.col-md-3 {
+	padding-left:7px;
+  	padding-right:7px;
 }

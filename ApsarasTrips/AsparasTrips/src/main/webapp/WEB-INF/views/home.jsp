@@ -252,9 +252,57 @@
       </div>
       
       <div id="our-members-section" class="page-section">
-        <div class="page-divider">
-          <span>Our Members</span>
-        </div>
+   		<div class="member-section-divider">
+   			<div class="page-divider">
+        		<span>Our Members</span>
+      		</div>
+      	</div>
+        
+        <div id="member-grid">
+          <div class="clearfix">
+      
+            <div class="col-md-3">
+              <div class="member">
+                <div class="member-portrait">
+                  <div class="member-img">
+                    <img src="<spring:url value='/resources/images/hy_pic1.png'/>" />
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="member">
+                <div class="member-portrait">
+                  <div class="member-img">
+                    <img src="<spring:url value='/resources/images/hy_pic2.png'/>" />
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="member">
+                <div class="member-portrait">
+                  <div class="member-img">
+                    <img src="<spring:url value='/resources/images/hy_pic3.png'/>" />
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="member">
+                <div class="member-portrait">
+                  <div class="member-img">
+                    <img src="<spring:url value='/resources/images/hy_pic4.png'/>" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>   
       </div>
   
       <div class="page-divider">
