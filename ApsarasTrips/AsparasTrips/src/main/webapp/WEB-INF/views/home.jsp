@@ -57,8 +57,7 @@
 
     <!-- Header end -->
 
-    <div class="page-body container">
-      <div class="page-section">
+      <div id="categories-section" class="page-section container">
         <div class="page-divider">
           <span>Apsaras 9 Products Category</span>
         </div>
@@ -124,10 +123,8 @@
               </div>
             </div>
           </div>
-          
-          
+
           <div class="space-divider">
-          
           </div>
           
           <div class="row">
@@ -190,7 +187,6 @@
           </div>
           
           <div class="space-divider">
-          
           </div>
           
           <div class="row">
@@ -255,61 +251,62 @@
         </div>
       </div>
       
-      <div id="our-members-section" class="page-section">
-   		<div class="member-section-divider">
+      <div id="our-members-section" class="page-section container-fluid">
+        <div class="container">
+   		  <div class="member-section-divider">
    			<div class="page-divider">
         		<span>Our Members</span>
       		</div>
-      	</div>
-        
+      	  </div>
+        </div>
         <div id="member-grid">
-          <div class="clearfix">
+            <div class="row">
       
-            <div class="col-md-3">
-              <div class="member">
-                <div class="member-portrait">
-                  <div class="member-img">
-                    <img src="<spring:url value='/resources/images/hy_pic1.png'/>" />
+              <div class="col-md-3">
+                <div class="member">
+                  <div class="member-portrait">
+                    <div class="member-img">
+                      <img src="<spring:url value='/resources/images/hy_pic1.png'/>" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-      
-            <div class="col-md-3">
-              <div class="member">
-                <div class="member-portrait">
-                  <div class="member-img">
-                    <img src="<spring:url value='/resources/images/hy_pic2.png'/>" />
+        
+              <div class="col-md-3">
+                <div class="member">
+                  <div class="member-portrait">
+                    <div class="member-img">
+                      <img src="<spring:url value='/resources/images/hy_pic2.png'/>" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-      
-            <div class="col-md-3">
-              <div class="member">
-                <div class="member-portrait">
-                  <div class="member-img">
-                    <img src="<spring:url value='/resources/images/hy_pic3.png'/>" />
+        
+              <div class="col-md-3">
+                <div class="member">
+                  <div class="member-portrait">
+                    <div class="member-img">
+                      <img src="<spring:url value='/resources/images/hy_pic3.png'/>" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-      
-            <div class="col-md-3">
-              <div class="member">
-                <div class="member-portrait">
-                  <div class="member-img">
-                    <img src="<spring:url value='/resources/images/hy_pic4.png'/>" />
+        
+              <div class="col-md-3">
+                <div class="member">
+                  <div class="member-portrait">
+                    <div class="member-img">
+                      <img src="<spring:url value='/resources/images/hy_pic4.png'/>" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
           
-          </div>
-        </div>   
+            </div>
+          </div>   
       </div>
   
-      <div id="promos-section" class="page-section">
+      <div id="promos-section" class="page-section container">
         <div class="page-divider">
           <span>Promos</span>
         </div>
@@ -325,29 +322,20 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="promo">
-                <span class=promo-title>Promo 1</span>
-                <img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="...">
-              </div>              
-              <div class="carousel-caption">
-                
+                  <div class=promo-title>Promo 1</div>
+                  <div><img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                <span class=promo-title>Promo 2</span>
-                <img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="...">
-              </div>
-              <div class="carousel-caption">
-                
+                <div class=promo-title>Promo 2</div>
+                <div><img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                <span class=promo-title>Promo 3</span>
-                <img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="...">
-              </div>
-              <div class="carousel-caption">
-                
+                  <div class=promo-title>Promo 3</div>
+                  <div><img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             
@@ -372,26 +360,83 @@
 	          <button class="btn" >See More</button>
 	        </div>        
         </div>
-                
       </div>
-    </div>
   
     <!-- Body End -->
     
-    <div id="footer">
-      <div class="clearfix">
-        <div class="col-md-offset-1 col-md-3 payment-methods">  
-          <img src="<spring:url value='/resources/images/bottom_L.png'/>">  
+    <footer id="footer">
+      <div class="container">
+        <div class="col-md-3 payment-methods">
+          <div id="payment-methods-label">
+            Payment Methods:
+          </div>
+          <div id="payment-methods-list">
+            <ul>
+              <li><img src="<spring:url value='/resources/images/po_visa.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_discover.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_paypal.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_solo.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_visaelectron.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_maestro.png'/>"/></li>
+              <li><img src="<spring:url value='/resources/images/po_mastercard.png'/>"/></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-3 options">  
-          <img src="<spring:url value='/resources/images/bottom_M.png'/>">  
+        <div class="col-md-offset-1 col-md-4 options">  
+          <div id="options-list">
+            <ul>
+              <li><a href="#">Shipping rate & Tax</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          
+          <div id="footer-profile">
+            <div id="footer-profile-label">
+              My Profile
+            </div>
+            
+            <div id="footer-profile-options" class="footer-profile-options-list">
+              <ul>
+                <li><a href="#">Order List</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">My Review</a></li>
+              </ul>
+            </div>
+            
+            <div id="footer-profile-options-sec" class="footer-profile-options-list">
+              <ul>
+                <li><a href="#">No Annotation</a></li>
+                <li><a href="#">Partners site</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 rating">  
-          <img src="<spring:url value='/resources/images/bottom_R.png'/>">  
+        <div class="col-md-offset-1 col-md-3 rating">  
+          <div id="star-rating">
+            <div id="star-rating-label">
+              No Annotation
+            </div>
+            <div id="star-rating-stars">
+              <ul>
+                <li><img src="<spring:url value='/resources/images/footer_star.png'/>"/></li>
+                <li><img src="<spring:url value='/resources/images/footer_star.png'/>"/></li>
+                <li><img src="<spring:url value='/resources/images/footer_star.png'/>"/></li>
+                <li><img src="<spring:url value='/resources/images/footer_star.png'/>"/></li>
+                <li><img src="<spring:url value='/resources/images/footer_star.png'/>"/></li>
+              </ul>
+            </div>
+            
+            <div id="star-rating-footer">
+              <div>No Annotation: 2016-2022 APSARAS?????? No Annotation</div>
+              <div>1231000000000 ?ICP11001234 ?B2-20160421</div>
+            </div>
+          </div>
         </div>
       </div>
-      
-    </div>    
+          
+    </footer>
   <!-- 
   	
     <h1>Apsaras</h1>
@@ -401,18 +446,4 @@
 
 </body>
 
-<script type="text/javascript">
-
-  $(document).ready(function(){
-	  setFooterTop();	  
-	  window.onresize = setFooterTop; 
-	});
-  
-  function setFooterTop() {
-    var footerTop = $("#header-image")[0].scrollHeight
-            + $("#navigation")[0].scrollHeight
-            + $(".page-body")[0].scrollHeight + "px";
-    $("#footer").css("top", footerTop);  
-  }
-</script>
 </html>
