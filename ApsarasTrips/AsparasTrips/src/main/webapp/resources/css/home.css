@@ -7,7 +7,16 @@
 }
 
 #our-members-section {
-  background-image: url('../images/hy_bg.png');
+  background: url('../images/hy_bg.png')  no-repeat center center;
+  background-size: cover;
+}
+
+#catgories-section {
+  padding-bottom: 0px;
+}
+
+#category-grid .category{
+  margin-bottom: 40px;
 }
 
 #category-grid .category>.category-portrait {

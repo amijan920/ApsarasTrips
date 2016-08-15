@@ -66,10 +66,10 @@
         
         <div id="category-grid">
           <div class="row">
-            <div class="col-md-offset-1 col-md-10">
+            <div class="col-md-offset-1 col-md-10 col-sm-offset-0 col-sm-12">
               <div class="row">
           
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -86,7 +86,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4  col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -103,7 +103,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4  col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -124,11 +124,8 @@
             </div>
           </div>
 
-          <div class="space-divider">
-          </div>
-          
           <div class="row">
-            <div class="col-md-offset-1 col-md-10">
+            <div class="col-md-offset-1 col-md-10 col-sm-12">
               <div class="row">
           
                 <div class="col-md-4">
@@ -148,7 +145,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4  col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -165,7 +162,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4  col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -186,14 +183,11 @@
             </div>
           </div>
           
-          <div class="space-divider">
-          </div>
-          
           <div class="row">
-            <div class="col-md-offset-1 col-md-10">
+            <div class="col-md-offset-1 col-md-10  col-sm-12">
               <div class="row">
           
-                <div class="col-md-4">
+                <div class="col-md-4  col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -210,7 +204,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -227,7 +221,7 @@
                   </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
@@ -411,9 +405,11 @@
                 <li><a href="#">合作伙伴</a></li>
               </ul>
             </div>
+            
+            <div style="clear: both;"></div> 
           </div>
         </div>
-        <div class="col-md-offset-1 col-md-3 rating">  
+        <div class="col-md-offset-1 col-md-3 col-sm-12 rating">  
           <div id="star-rating">
             <div id="star-rating-label">
                                 客户评价高
