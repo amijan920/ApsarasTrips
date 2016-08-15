@@ -316,32 +316,35 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="promo">
-                  <div class=promo-title>独家协议</div>
-                  <div><img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="..."></div>
+                  <div class="promo-title">独家协议</div>
+                  <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                <div class=promo-title>独家协议</div>
-                <div><img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="..."></div>
+                <div class="promo-title">独家协议</div>
+                <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                  <div class=promo-title>独家协议</div>
-                  <div><img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="..."></div>
+                  <div class="promo-title">独家协议</div>
+                  <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="..."></div>
               </div>
             </div>
-            
           </div>
         
           <!-- Controls -->
           <a class="left carousel-control" href="#promo-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="left nav-arrow">
+              <img src="<spring:url value='/resources/images/arrow_left.png'/>">
+            </span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="right carousel-control" href="#promo-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="right nav-arrow">
+              <img src="<spring:url value='/resources/images/arrow_right.png'/>">
+            </span>
             <span class="sr-only">Next</span>
           </a>
         </div>

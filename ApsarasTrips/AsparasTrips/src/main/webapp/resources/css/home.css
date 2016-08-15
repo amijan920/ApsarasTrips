@@ -39,6 +39,7 @@
 
 #category-grid .category>.category-portrait>.category-label>.secondary-label {
   font-size: .8em;
+  font-weight: 700;
 }
 
 #category-grid .category>.category-portrait>.category-img {
@@ -63,13 +64,16 @@
   width: 100%;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+#member-grid .member {
   margin-bottom: 20px;
 }
 
 #member-grid .member>.member-portrait>.member-img>img {
   width: 100%;
   cursor: pointer;
-  box-shadow: 2px 2px 5px #888888;
+  box-shadow: 2px 2px 6px #AAAAAA;
 }
 
 #promos-section .item {
@@ -78,6 +82,20 @@
 
 #promos-section .promo {
   display: inline-block;
+  width: 100%;
+}
+
+#promos-section .promo-image {
+  height: 250px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#promos-section .promo-image>img {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #promos-section .promo>.promo-title {
@@ -98,6 +116,24 @@
 
 #promos-section .promo-message span {
   font-size: 1.4em;
+}
+
+#promos-section .nav-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  margin-top: -32px;
+}
+
+#promos-section .nav-arrow.left > img {
+  margin-left: -66px;
+}
+
+#promos-section .nav-arrow.right > img{
+  margin-right: -66px;
+}
+
+#promos-section .nav-arrow > img{
 }
 
 #footer {
@@ -146,6 +182,8 @@
   margin-bottom:5px;
   list-style: none;
   display: inline-block;
+  width:100%;
+  text-align: justify;
 }
 
 #options-list>ul>li {
@@ -153,6 +191,13 @@
   margin-right: 4px;
   display: inline-block;
 }
+
+#options-list>ul:after { 
+  content:' '; 
+  display:inline-block; 
+  width: 100%; 
+  height: 0 
+} 
 
 #options-list>ul>li:FIRST-CHILD {
   margin-left: 0px;
