@@ -1,10 +1,57 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "UTF-8";
+
+@font-face {
+  font-family: AdobeHeit;
+  src: url('../fonts/AdobeHeitiStd-Regular.otf');
+}
+
+@font-face {
+  font-family: FZKai-Z03S;
+  src: url('../fonts/FZKTJW.TTF');
+}
+
+@font-face {
+  font-family: FZLanTingHei-R-GBK;
+  src: url('../fonts/方正兰亭黑_GBK.TTF');
+}
+
+@font-face {
+  font-family: FZLanTingHei-B-GBK;
+  src: url('../fonts/兰亭粗黑 GBK_1.TTF');
+}
+
+@font-face {
+  font-family: FZLanTingHeiS-B-GBK;
+  src: url('../fonts/兰亭粗黑简_1.TTF');
+}
+
+@font-face {
+  font-family: FZLanTingHeiS-DB1-GBK;
+  src: url('../fonts/方正兰亭中粗黑_GBK.TTF');
+}
+
+@font-face {
+  font-family: FZShuiZu-M08;
+  src: url('../fonts/方正水柱_GBK.ttf');
+}
+
+@font-face {
+  font-family: FuShuiZhu-M086;
+  src: url('../fonts/方正水柱简体.ttf');
+}
+
+@font-face {
+  font-family: FuShuiZhu-M08T;
+  src: url('../fonts/方正水柱繁体.ttf');
+}
 
 body {
 	background-color: #212121;
 	background-image: url('../images/bg.png');
 	background-size: cover;
     background-repeat: repeat-y;
+    font-family: FZLanTingHei-R-GBK;
+    color: #6c6d6e
 }
 
 #navigation {
@@ -17,6 +64,8 @@ body {
 	color: #ffffff;
 	padding-top:25px;
 	padding-bottom:25px;
+	font-weight: 100;
+	font-size:14px;
 }
 
 #navigation a:hover {
@@ -71,7 +120,7 @@ body {
     display: inline-block;
     color: #004ea1;
     font-size: 1.4em;
-    font-weight: 700;
+    font-family: FZLanTingHeiS-DB1-GBK;
 }
 
 .page-divider > span:before,

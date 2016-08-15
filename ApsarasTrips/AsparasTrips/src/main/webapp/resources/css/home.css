@@ -19,12 +19,16 @@
   color: #ffffff;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  padding: 15px 10px 10px 10px;
+  padding: 12px 10px 10px 10px;
   text-align: center;
 }
 
+#category-grid .category>.category-portrait>.category-label>.primary-label {
+  font-size: 1.2em;
+  margin-bottom: -2px;
+}
+
 #category-grid .category>.category-portrait>.category-label>.secondary-label {
-  font-weight: 700;
   font-size: .8em;
 }
 
@@ -70,7 +74,6 @@
 #promos-section .promo>.promo-title {
   font-size: 1.4em;
   text-align: left;
-  color: #6a6b6d;
   margin-bottom: 4px;
 }
 
@@ -86,7 +89,6 @@
 
 #promos-section .promo-message span {
   font-size: 1.4em;
-  color: #6a6b6d;
 }
 
 #footer {
@@ -105,10 +107,6 @@
 
 #payment-methods-list {
   margin-top: 8px;
-}
-
-#payment-methods-label {
-  font-weight: 700;
 }
 
 #payment-methods-list>ul {
@@ -157,7 +155,6 @@
 
 #options-list>ul>li>a {
   color: #ffffff;
-  font-weight: 700;
   text-decoration: none;
 }
 
@@ -171,7 +168,6 @@
 
 #footer-profile-label {
   color: #ffffff;
-  font-weight: 700;
   margin-bottom:20px;
 }
 
@@ -206,7 +202,6 @@
 #star-rating-label {
   color: #ffffff;
   font-size: .8em;
-  font-weight: 700;
   margin-bottom:4px;
 }
 

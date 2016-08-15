@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-  pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+  pageEncoding="UTF-8"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="ex" uri="/WEB-INF/custom.tld"%>
@@ -41,15 +41,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Social</a></li>
-            <li><a href="#">Shopping Cart</a></li>
+            <li class="active"><a href="#">所有旅程</a></li>
+            <li><a href="#">Apsaras之旅</a></li>
+            <li><a href="#">目的地</a></li>
+            <li><a href="#">互动社交</a></li>
+            <li><a href="#">购物车</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="no-right-padding">Login</a></li>
-            <li><a href="#" class="no-left-padding">Sign Up</a></li>
+            <li><a href="#" class="no-right-padding">登录</a></li>
+            <li><a href="#" class="no-left-padding">注册</a></li>
           </ul>
         </div>
       </div>
@@ -59,7 +59,7 @@
 
       <div id="categories-section" class="page-section container">
         <div class="page-divider">
-          <span>Apsaras 9 Products Category</span>
+          <span>Apsaras 9大产品系列</span>
         </div>
         
         <!-- TODO create template and automate -->
@@ -73,7 +73,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">Sailing yacht holidays</div>
                       </div>
                       <div class="category-img">
@@ -81,7 +81,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">Diving Series</div>
                       </div>
                       <div class="category-img">
@@ -98,7 +98,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -107,7 +107,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">Sailing, diving training Series</div>
                       </div>
                       <div class="category-img">
@@ -115,7 +115,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -135,7 +135,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多了解更多</div>
                         <div class="secondary-label">Global Yacht Club membership benefits</div>
                       </div>
                       <div class="category-img">
@@ -143,7 +143,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">Island Travel Line</div>
                       </div>
                       <div class="category-img">
@@ -160,7 +160,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -169,7 +169,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">HTRIP base line (Philippines, Greece)</div>
                       </div>
                       <div class="category-img">
@@ -177,7 +177,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多了解更多</div>
                         <div class="secondary-label">Global Yacht Club membership benefits</div>
                       </div>
                       <div class="category-img">
@@ -205,7 +205,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多了解更多</div>
                         <div class="secondary-label">Royal Caribbean cruise agent</div>
                       </div>
                       <div class="category-img">
@@ -222,7 +222,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -231,7 +231,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label"></div>
+                        <div class="primary-label">了解更多</div>
                         <div class="secondary-label">Apsaras Living Museum</div>
                       </div>
                       <div class="category-img">
@@ -239,7 +239,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >See More</button>
+                      <button class="btn" >了解更多</button>
                     </div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@
         <div class="container">
    		  <div class="member-section-divider">
    			<div class="page-divider">
-        		<span>Our Members</span>
+        		<span>我们的会员</span>
       		</div>
       	  </div>
         </div>
@@ -308,7 +308,7 @@
   
       <div id="promos-section" class="page-section container">
         <div class="page-divider">
-          <span>Promos</span>
+          <span>每日交易，喜悦分享</span>
         </div>
         <div id="promo-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -322,19 +322,19 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="promo">
-                  <div class=promo-title>Promo 1</div>
+                  <div class=promo-title>独家协议</div>
                   <div><img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                <div class=promo-title>Promo 2</div>
+                <div class=promo-title>独家协议</div>
                 <div><img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                  <div class=promo-title>Promo 3</div>
+                  <div class=promo-title>独家协议</div>
                   <div><img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="..."></div>
               </div>
             </div>
@@ -354,10 +354,10 @@
         
         <div class="promo-footer">
 	        <div class="promo-message">
-	          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu velit, elementum quis.</span>
+	          <span>无论你在哪里，在此您可找到独家交易并享受本地HTRIP成员的旅游专线线路推荐！期待您的加入，谢谢！</span>
 	        </div>
 	        <div class="promo-btn">
-	          <button class="btn" >See More</button>
+	          <button class="btn" >了解更多</button>
 	        </div>        
         </div>
       </div>
@@ -368,7 +368,7 @@
       <div class="container">
         <div class="col-md-3 payment-methods">
           <div id="payment-methods-label">
-            Payment Methods:
+                             付款方式：
           </div>
           <div id="payment-methods-list">
             <ul>
@@ -385,30 +385,30 @@
         <div class="col-md-offset-1 col-md-4 options">  
           <div id="options-list">
             <ul>
-              <li><a href="#">Shipping rate & Tax</a></li>
-              <li><a href="#">Return Policy</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="#">运费&税收</a></li>
+              <li><a href="#">退货条款</a></li>
+              <li><a href="#">联系我们</a></li>
+              <li><a href="#">常见问题</a></li>
             </ul>
           </div>
           
           <div id="footer-profile">
             <div id="footer-profile-label">
-              My Profile
+                                 我的账户
             </div>
             
             <div id="footer-profile-options" class="footer-profile-options-list">
               <ul>
-                <li><a href="#">Order List</a></li>
-                <li><a href="#">Order History</a></li>
-                <li><a href="#">My Review</a></li>
+                <li><a href="#">订单查询</a></li>
+                <li><a href="#">订单记录</a></li>
+                <li><a href="#">我的评论</a></li>
               </ul>
             </div>
             
             <div id="footer-profile-options-sec" class="footer-profile-options-list">
               <ul>
-                <li><a href="#">No Annotation</a></li>
-                <li><a href="#">Partners site</a></li>
+                <li><a href="#">销售联盟</a></li>
+                <li><a href="#">合作伙伴</a></li>
               </ul>
             </div>
           </div>
@@ -416,7 +416,7 @@
         <div class="col-md-offset-1 col-md-3 rating">  
           <div id="star-rating">
             <div id="star-rating-label">
-              No Annotation
+                                客户评价高
             </div>
             <div id="star-rating-stars">
               <ul>
@@ -429,8 +429,8 @@
             </div>
             
             <div id="star-rating-footer">
-              <div>No Annotation: 2016-2022 APSARAS?????? No Annotation</div>
-              <div>1231000000000 ?ICP11001234 ?B2-20160421</div>
+              <div>版权所有：2016-2022 APSARAS之旅网上商城 公安网备案号：</div>
+              <div>12310000000000 深ICP11001234 深B2-20160421</div>
             </div>
           </div>
         </div>
