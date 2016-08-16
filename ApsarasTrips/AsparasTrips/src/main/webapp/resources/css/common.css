@@ -7,42 +7,50 @@
 
 @font-face {
   font-family: FZKai-Z03S;
-  src: url('../fonts/FZKTJW.TTF');
+  src: url('../fonts/FZKai-Z03S.ttf');
+  /* FZKTJW.TTF */
 }
 
 @font-face {
   font-family: FZLanTingHei-R-GBK;
-  src: url('../fonts/方正兰亭黑_GBK.TTF');
+  src: url('../fonts/FZLanTingHei-R-GBK.ttf');
+  /* 方正兰亭黑_GBK.TTF */
 }
 
 @font-face {
   font-family: FZLanTingHei-B-GBK;
-  src: url('../fonts/兰亭粗黑 GBK_1.TTF');
+  src: url('../fonts/FZLanTingHei-B-GBK.ttf');
+  /* 兰亭粗黑 GBK_1.TTF */
 }
 
 @font-face {
   font-family: FZLanTingHeiS-B-GBK;
-  src: url('../fonts/兰亭粗黑简_1.TTF');
+  src: url('../fonts/FZLanTingHeiS-B-GBK.ttf');
+  /* 兰亭粗黑简_1.TTF */
 }
 
 @font-face {
   font-family: FZLanTingHeiS-DB1-GBK;
-  src: url('../fonts/方正兰亭中粗黑_GBK.TTF');
+  src: url('../fonts/FZLanTingHeiS-DB1-GBK.ttf');
+  /* 方正兰亭中粗黑_GBK.TTF */
 }
 
 @font-face {
   font-family: FZShuiZu-M08;
-  src: url('../fonts/方正水柱_GBK.ttf');
+  src: url('../fonts/FZShuiZu-M08.ttf');
+  /* 方正水柱_GBK.ttf */
 }
 
 @font-face {
-  font-family: FuShuiZhu-M086;
-  src: url('../fonts/方正水柱简体.ttf');
+  font-family: FuShuiZhu-M08S;
+  src: url('../fonts/FuShuiZhu-M08S.ttf');
+  /* 方正水柱简体.ttf */
 }
 
 @font-face {
   font-family: FuShuiZhu-M08T;
-  src: url('../fonts/方正水柱繁体.ttf');
+  src: url('../fonts/FuShuiZhu-M08T.ttf');
+  /* 方正水柱繁体.ttf */
 }
 
 body {
