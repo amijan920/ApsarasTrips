@@ -22,6 +22,10 @@
     
   </head>
   <body>
+<%--   Language : <a href="?language=en">English</a>|<a href="?language=zh_CN">Chinese</a>
+  <br> ${pageContext.response.locale}
+  <br> ${pageContext.response.locale.language} --%>
+  
     <!-- TODO: move header to separate file -->
     <!-- Header start -->
     <div id="header-image">
@@ -41,15 +45,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">所有旅程</a></li>
-            <li><a href="#">Apsaras之旅</a></li>
-            <li><a href="#">目的地</a></li>
-            <li><a href="#">互动社交</a></li>
-            <li><a href="#">购物车</a></li>
+            <li class="active"><a href="#"><spring:message code="home" text="missing text" /></a></li>
+            <li><a href="#"><spring:message code="about" text="missing text" /></a></li>
+            <li><a href="#"><spring:message code="destination" text="missing text" /></a></li>
+            <li><a href="#"><spring:message code="social_activities" text="missing text" /></a></li>
+            <li><a href="#"><spring:message code="shopping_cart" text="missing text" /></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="no-right-padding">登录</a></li>
-            <li><a href="#" class="no-left-padding">注册</a></li>
+            <li><a href="#" class="no-right-padding"><spring:message code="login" text="missing text" /></a></li>
+            <li><a href="#" class="no-left-padding"><spring:message code="signup" text="missing text" /></a></li>
           </ul>
         </div>
       </div>
@@ -59,7 +63,7 @@
 
       <div id="categories-section" class="page-section container">
         <div class="page-divider">
-          <span>Apsaras 9大产品系列</span>
+          <span><spring:message code="apsaras_9" text="missing text" /></span>
         </div>
         
         <!-- TODO create template and automate -->
@@ -73,15 +77,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
-                        <div class="secondary-label">Sailing yacht holidays</div>
+                        <div class="primary-label"><spring:message code="sailing_yacht_holidays_ch" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="sailing_yacht_holidays_en" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p1_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -90,15 +94,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
-                        <div class="secondary-label">Diving Series</div>
+                        <div class="primary-label"><spring:message code="diving_ch" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="diving_en" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p2_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -107,15 +111,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
-                        <div class="secondary-label">Sailing, diving training Series</div>
+                        <div class="primary-label"><spring:message code="diving_training_ch" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="diving_training_en" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p3_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -132,7 +136,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多了解更多</div>
+                        <div class="primary-label"><spring:message code="global_yacht_club_en" text="missing text" /><spring:message code="see_more" text="missing text" /></div>
                         <div class="secondary-label">Global Yacht Club membership benefits</div>
                       </div>
                       <div class="category-img">
@@ -140,7 +144,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -149,7 +153,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
+                        <div class="primary-label"><spring:message code="see_more" text="missing text" /></div>
                         <div class="secondary-label">Island Travel Line</div>
                       </div>
                       <div class="category-img">
@@ -157,7 +161,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -166,7 +170,7 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
+                        <div class="primary-label"><spring:message code="see_more" text="missing text" /></div>
                         <div class="secondary-label">HTRIP base line (Philippines, Greece)</div>
                       </div>
                       <div class="category-img">
@@ -174,7 +178,7 @@
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -191,15 +195,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多了解更多</div>
-                        <div class="secondary-label">Global Yacht Club membership benefits</div>
+                        <div class="primary-label"><spring:message code="gyc_membership_benefits_en" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="gyc_membership_benefits_ch" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -208,15 +212,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多了解更多</div>
-                        <div class="secondary-label">Royal Caribbean cruise agent</div>
+                        <div class="primary-label"><spring:message code="royal_caribbean_cruise_agent_ch" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="royal_caribbean_cruise_agent_en" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -225,15 +229,15 @@
                   <div class="category">
                     <div class="category-portrait">
                       <div class="category-label">
-                        <div class="primary-label">了解更多</div>
-                        <div class="secondary-label">Apsaras Living Museum</div>
+                        <div class="primary-label"><spring:message code="apsaras_living_museum_ch" text="missing text" /></div>
+                        <div class="secondary-label"><spring:message code="apsaras_living_museum_en" text="missing text" /></div>
                       </div>
                       <div class="category-img">
                         <img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" />
                       </div>
                     </div>
                     <div class="category-footer">
-                      <button class="btn" >了解更多</button>
+                      <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
                     </div>
                   </div>
                 </div>
@@ -249,7 +253,7 @@
         <div class="container">
    		  <div class="member-section-divider">
    			<div class="page-divider">
-        		<span>我们的会员</span>
+        		<span><spring:message code="members" text="missing text" /></span>
       		</div>
       	  </div>
         </div>
@@ -299,10 +303,10 @@
             </div>
           </div>   
       </div>
-  
+
       <div id="promos-section" class="page-section container">
         <div class="page-divider">
-          <span>每日交易，喜悦分享</span>
+          <span><spring:message code="promos" text="missing text" /></span>
         </div>
         <div id="promo-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -316,19 +320,19 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <div class="promo">
-                  <div class="promo-title">独家协议</div>
+                  <div class="promo-title"><spring:message code="promo_header" text="missing text" /></div>
                   <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p7_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                <div class="promo-title">独家协议</div>
+                <div class="promo-title"><spring:message code="promo_header" text="missing text" /></div>
                 <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p8_cropped.png'/>" alt="..."></div>
               </div>
             </div>
             <div class="item">
               <div class="promo">
-                  <div class="promo-title">独家协议</div>
+                  <div class="promo-title"><spring:message code="promo_header" text="missing text" /></div>
                   <div class="promo-image"><img src="<spring:url value='/resources/images/xl_p9_cropped.png'/>" alt="..."></div>
               </div>
             </div>
@@ -351,10 +355,10 @@
         
         <div class="promo-footer">
 	        <div class="promo-message">
-	          <span>无论你在哪里，在此您可找到独家交易并享受本地HTRIP成员的旅游专线线路推荐！期待您的加入，谢谢！</span>
+	          <span><spring:message code="promo_descrip" text="missing text" /></span>
 	        </div>
 	        <div class="promo-btn">
-	          <button class="btn" >了解更多</button>
+	          <button class="btn" ><spring:message code="see_more" text="missing text" /></button>
 	        </div>        
         </div>
       </div>
@@ -365,7 +369,7 @@
       <div class="container">
         <div class="col-md-3 payment-methods">
           <div id="payment-methods-label">
-                             付款方式：
+            <spring:message code="payment_method" text="missing text" />                             
           </div>
           <div id="payment-methods-list">
             <ul>
@@ -382,30 +386,30 @@
         <div class="col-md-offset-1 col-md-4 options">  
           <div id="options-list">
             <ul>
-              <li><a href="#">运费&税收</a></li>
-              <li><a href="#">退货条款</a></li>
-              <li><a href="#">联系我们</a></li>
-              <li><a href="#">常见问题</a></li>
+              <li><a href="#"><spring:message code="shipping_and_tax_rate" text="missing text" /></a></li>
+              <li><a href="#"><spring:message code="return_policy" text="missing text" /></a></li>
+              <li><a href="#"><spring:message code="contact_us" text="missing text" /></a></li>
+              <li><a href="#"><spring:message code="faq" text="missing text" /></a></li>
             </ul>
           </div>
           
           <div id="footer-profile">
             <div id="footer-profile-label">
-                                 我的账户
+              <spring:message code="my_profile" text="missing text" />
             </div>
             
             <div id="footer-profile-options" class="footer-profile-options-list">
               <ul>
-                <li><a href="#">订单查询</a></li>
-                <li><a href="#">订单记录</a></li>
-                <li><a href="#">我的评论</a></li>
+                <li><a href="#"><spring:message code="order_list" text="missing text" /></a></li>
+                <li><a href="#"><spring:message code="order_history" text="missing text" /></a></li>
+                <li><a href="#"><spring:message code="my_review" text="missing text" /></a></li>
               </ul>
             </div>
             
             <div id="footer-profile-options-sec" class="footer-profile-options-list">
               <ul>
-                <li><a href="#">销售联盟</a></li>
-                <li><a href="#">合作伙伴</a></li>
+                <li><a href="#"><spring:message code="above_partner_site" text="missing text" /></a></li>
+                <li><a href="#"><spring:message code="partner_sites" text="missing text" /></a></li>
               </ul>
             </div>
             
@@ -415,7 +419,7 @@
         <div class="col-md-offset-1 col-md-3 col-sm-12 rating">  
           <div id="star-rating">
             <div id="star-rating-label">
-                                客户评价高
+              <spring:message code="num_stars" text="missing text" />
             </div>
             <div id="star-rating-stars">
               <ul>
@@ -428,20 +432,14 @@
             </div>
             
             <div id="star-rating-footer">
-              <div>版权所有：2016-2022 APSARAS之旅网上商城 公安网备案号：</div>
-              <div>12310000000000 深ICP11001234 深B2-20160421</div>
+              <div><spring:message code="below_stars_1" text="missing text" /></div>
+              <div><spring:message code="below_stars_2" text="missing text" /></div>
             </div>
           </div>
         </div>
       </div>
           
     </footer>
-  <!-- 
-  	
-    <h1>Apsaras</h1>
-    <p>Click <a href="<spring:url value='/hello'/>">here</a> to see a greeting.</p>
-    
-     -->
 
 </body>
 
